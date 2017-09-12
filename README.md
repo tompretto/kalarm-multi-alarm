@@ -1,7 +1,7 @@
 # kalarm-sysfs
-This is a multi-alarm addition to my previous sysfs iteration of the kernel clock alarm module
+ulti-Alarm Clock module with SYSFS access
 
-The previous assignment entailed the implementation of a Simple Clock Module & Calendar User Interface.   
+The previous assignment entailed the implementation of a Simple Clock Module & Calendar User Interface, and adds multi-alarm capabilities.
 
 The program consists of two parts:  A user-space component and a kernel module.  
 The user-space component creates a kernel timer using itimerval to keep track of the time,
